@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "github.duyan013m.create_shapez.mixin.client",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ItemModelsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "ModelLoaderMixin"
+  ]
+}
